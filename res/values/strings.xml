@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThisGif</string>
+	
+    <string name="indicator_makeAGif">Make A Gif</string>
+    <string name="indicator_myGifs">My Gifs</string>
+    <string name="indicator_browseGifs">Browse Gifs</string>
+    
+    <string name="menu_toPreferences">Preferences\u2026</string>
+    <string name="menu_toErrorLog">Send Error Log\u2026</string>
+    
+    <string name="makeAGif_toGifEditor">Edit Gif</string>
+    <string name="makeAGif_tags">Tags</string>
+    <string name="makeAGif_save">Save</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TGTabDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dip</item>
+        <item name="android:background">#ff000000</item>
+    </style>
+    
+    <style name="TGTabTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    	<item name="android:textSize">12dip</item>
+    	<item name="android:textColor">#ff000000</item>
+    </style>
+    
+    <style name="TGTabRoot">
+        <item name="android:background">#ffffffff</item>
+    </style>
+    
+    <style name="TGH1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:padding">6dip</item>
+    </style>
+    
+    <style name="TGBigButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        
+    </style>
+    
+</resources>

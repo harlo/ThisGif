@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/TGTabRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_root" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/source_holder"
+        android:weightSum="1.0"
+        android:orientation="horizontal"
+        android:padding="6dip" >
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="140dip"
+            android:layout_weight="0.65"
+            android:id="@+id/makeAGif_loadVideo" />
+        <Button
+            android:id="@+id/makeAGif_toEditor"
+            android:layout_width="0dip"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.35"
+        	android:layout_gravity="bottom"
+        	android:text="@string/makeAGif_toGifEditor" />            
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/makeAGif_tagEditorHolder"
+        android:layout_below="@id/source_holder"
+        android:orientation="vertical" >
+        <com.msteg.thisgif.mods.H1 style="@style/TGH1"
+            android:text="@string/makeAGif_tags" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:padding="6dip" >
+            <EditText
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:id="@+id/makeAGif_addTagText" />
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:id="@+id/makeAGif_addTagButton" />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/makeAGif_addedTagHolder"
+            android:layout_marginBottom="60dip" />
+    </LinearLayout>
+    
+    <Button style="@style/TGBigButton"
+        android:id="@+id/makeAGif_saveGif"
+        android:layout_alignParentBottom="true"
+        android:text="@string/makeAGif_save" />
+
+</RelativeLayout>
